@@ -1,8 +1,14 @@
 #diorLogo {
   margin-bottom: 4px;
-  /* margin-right: 0px !important; */
 }
 
-/* .nav-item {
-  padding: 8px 40px;
-} */
+#jumbotronImage {
+  margin-top: 9vw;
+}
+
+.pricingPanel {
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+  /* padding-left: 0;
+  padding-right: 0; */
+}
