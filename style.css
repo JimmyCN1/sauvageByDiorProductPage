@@ -29,3 +29,11 @@
 .price {
   margin-top: 1rem;
 }
+
+/* #footer {
+  display: flex !important;
+} */
+
+.copyrightHTML {
+  font-size: 0.7rem;
+}
