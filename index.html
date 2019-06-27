@@ -14,8 +14,9 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-sm justify-content-between navbar-light bg-light">
+    <nav class="navbar navbar-expand-md justify-content-between navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img
           src="./images/diorLogo2.png"
@@ -29,15 +30,14 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
+        data-target="#navbarOptions"
+        aria-controls="navbarOptions"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarOptions">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item mx-sm-4 active">
             <a class="nav-link" href="#jumbotron">Description </a>
@@ -52,6 +52,7 @@
         </form>
       </div>
     </nav>
+
     <main class="container">
       <img src="./images/jumboImageLarge.jpg" class="img-fluid" alt="A Siberian Husky and Johnny Depp posing with a Sauvage bottle" id="jumbotronImage">
       <div class="jumbotron bg-white" id="jumbotron">
@@ -59,6 +60,11 @@
         <p class="lead">Sauvage is an act of creation inspired by wide-open spaces. An ozone blue sky sprawled above a rocky landscape, white-hot beneath the desert sun.</p>
         <hr class="my-4">
       </div>
+
+      <div id="video" class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LnoumTpLMfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
       <h2 class="h2 text-center">Pricing</h2>
       <div class="row justify-content-between">
         <div class="col-md">
@@ -71,7 +77,10 @@
             </header>
             <hr class="my-1">
             <p class="lead">Spray - 60ml</p>
-            <p>Price: $99</p>
+            <div class="row align-items-center buyItem">
+              <p class="col price">Price: $99</p>
+              <button class="col btn btn-primary btn-sm" type="submit">Buy</button>
+            </div>
           </div>
         </div>
         <div class="col-md">
@@ -84,7 +93,10 @@
             </header>
             <hr class="my-1">
             <p class="lead">Spray - 60ml</p>
-            <p>Price: $119</p>
+            <div class="row align-items-center buyItem">
+              <p class="col price">Price: $119</p>
+              <button class="col btn btn-primary btn-sm" type="submit">Buy</button>
+            </div>
           </div>
         </div>
         <div class="col-md">
@@ -97,7 +109,10 @@
             </header>
             <hr class="my-1">
             <p class="lead">Spray - 100ml</p>
-            <p>Price: $112</p>
+            <div class="row align-items-center buyItem">
+              <p class="col price">Price: $112</p>
+              <button class="col btn btn-primary btn-sm" type="submit">Buy</button>
+            </div>
           </div>
         </div>
       </div>
